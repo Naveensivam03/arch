@@ -1,0 +1,36 @@
+[cpu]
+command=top -bn1 | grep "Cpu(s)" | awk '{print 100 - $8 "%"}'
+interval=2
+label=cpu
+
+
+
+# Battery Block
+
+[battery]
+command=~/.config/i3blocks/battery_status.sh
+interval=30
+markup=pango
+
+
+# Memory Usage Block
+[memory]
+command=free -h | awk '/^Mem/ {print $3 "/" $2}'
+interval=10
+label=mem
+color=#9b8d7f
+
+# Volume Block
+[volume]
+command=pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}'
+interval=1
+label=vol
+color=#9b8d7f
+
+# Date/Time Block
+[time]
+command=date "+%Y-%m-%d %H:%M:%S"
+interval=1
+label=
+color=#9b8d7f
+
