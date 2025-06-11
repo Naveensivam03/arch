@@ -2,7 +2,7 @@
 
 ⚡ Minimalist, fast, and distraction-free desktop environment using **i3**, **i3blocks**, and **Ghostty** on Arch Linux.
 
-![Desktop Preview](./screenshots/96a6cd07-d50e-4dac-b231-19b1d544391a.png)
+![Desktop Preview](https://github.com/Naveensivam03/arch/blob/main/desktop.png?raw=true)
 ![Terminal Preview](./screenshots/5c3285fa-dd86-4092-b0be-42d520188f36.png)
 
 ---
